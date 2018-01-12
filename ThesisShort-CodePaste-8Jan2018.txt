@@ -1,0 +1,173 @@
+
+Mathematical Formulation:
+
+Basic interneuronal activity and learning algorithm:
+ a = ? xi•wi {for xn=x1 … xq} ? ? f(a) {/sigm()} = h ? v { ?_0^t¦n?  v}
+for Ncoord = [xo, yo, zo, to]
+if V = T, then [Out]: 1 ; if V < T, [Out]: 0
+where  neural activity xn = x1 ? V ; T = ‘threshold’
+wL1N1-L2N1 ? wij + ? xj yi  { j = L1N1, Yi = X[L2N1] } ;  ? (x(ti -oi))
+where L = layer, N = node
+Feedfwd: N1 ? N2 ?  Backpropag: N2 ? N1 ( dy/dx??y/?x  )
+for frequency fq (Hz) and phase ? sin(?) p
+
+Main Overall Algorithm 2B:
+(TBC)
+where  x = b
+
+Unit Association of Memory Concepts and Operational Conditioning:
+A(s) ? B(r) ; A ? B, C ; A(x) ? C(y) ; C ? A ; A n D for A ? E 
+F1 ? G1 ; G(s) ? H(r) at X(t); X(t+1); H’ ? F’ ; F ? H ; H U K for K ? J 
+
+
+Code: 
+
+	
+##### { in Python 3.6 PL in iPyI (adapted) }
+
+import numpy, scipy, sklearn, matplotlib, nilearn, neuron, pyparsing, nibabel, tensorflow as [ np, sp, … , tf ]
+
+import training datasets, test datasets
+
+datasets.fetch_DATA
+
+# Construct network
+# (learning rate & deltas)
+
+def(units)
+
+def(sigm)
+
+nn.arrays =
+[ 0 , 11 , 09      [ 0 , 11
+  0 , 33 , 33        0 , 12
+  0 , 99 , 99  ]     0 , 31 ]
+
+# randomise, initialise
+data.rnd.init()
+
+# Running
+
+# Training
+unsupervised (/self;)
+supervised (/self;+label)
+
+threshd fitness ? epoch replic
+
+#classify
+
+def tt()
+  from sklearn.classifiers {tree, k, dec, svm}
+  train_[X, Y]
+  predict  
+test_[X, Y]
+
+mem = Memory
+   if x == y OR x +> y (!)
+        t = 0.0000001 
+   elseif 
+        t = 9999999.9
+
+t_statmap_conn = nilearn.conn.[0-99]
+
+class nilearn.input_data.NiftiMasker(
+    mask_img=N, ses=N, smth_f=N, 
+    std=F, det=F, l_p=N, 
+    hi_ps=N, t_r=N, tg_af=N, tt_sp=N, 
+    msk_strg='bckgrd', msk_args=N, smpl_msk=N, 
+    memory_level=1, mem=Memory(cachedir=N), vrbo=0)
+
+SpaceNet_Classifier(a, b, c, c)
+
+
+ICA-SparseCoVariance.exec()
+
+plt.plot_connectome
+
+prt(time-series)
+
+#plot
+datasets.plt.show()
+plt.roi
+nifty ims
+
+
+# connectivity matrix
+
+conn.tvb.conn-mat 
+
+# END
+
+
+
+	
+##### SimBrain Java IDE/API; Java PL & XML
+
+import SimBrain
+  Def(
+
+import java.util.ArrayList;
+import javax.xml.bind.annotation.XmlRootElement;
+
+// ggg
+@XmlType
+
+public class defFunct567 {
+
+  private String X
+ 
+  getStateName() = zeroDef
+
+public void {this.Y}
+
+}
+
+return
+
+###
+
+usp=?
+org.simbrain.network.core.Neuron.defFunct567
+
+class="org.simbrain.nk.neuron_update_rules.NRRule">
+
+   <inputType>WEIGHTED</inputType>
+     <increment>0.1</increment>
+      <steepness>2.0</steepness>
+        <semiSaturConstant>120.0</semiSaturConstant>
+        <adaptTimeConstant>1.0</adaptTimeConstant>
+        
+      <x>10.0</x>
+      <y>10.0</y>
+      <z>0.0</z>
+    <adaptParameter>0.7</adaptParameter>
+ <useAdaptation>false</useAdaptation>
+
+<increment>0.4</increment>
+      <x>18.0</x>
+      <y>19.0</y>
+      <z>0.8</z>
+ <useAdaptation>false</useAdaptation>
+
+# END
+
+
+
+
+
+
+
+	
+
+	
+##### SciLab 6.0 / SciLab / Octave
+
+x1 = linspace(-500,100,200);
+x2 = linspace(-500,100,200);
+[X1,X2] = mesh-grd(x1,x2);
+
+Z = (-1 .* X1 .* (sqrt(abs(X1)))) + (-1 .* X2 .* sin(sqrt(abs(X2))));
+   f = scf();
+   f.color_map = jetcolormap(644);
+plot3d1(x,y,Z);
+
