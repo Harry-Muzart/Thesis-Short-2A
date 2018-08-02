@@ -1,6 +1,9 @@
 # Thesis-Short-2A
 Thesis-Short-2A
 
+Currently being built.
+Content currently beig researched.
+
 For now, see:
 
 # 1
