@@ -1,5 +1,5 @@
-# Thesis-Short-2A
-Thesis-Short-2A
+# Thesis-Short-2A-Comp-Neur-DB
+Thesis-Short-2A-Comp-Neur-DB
 
 Currently being built.
 Content currently beig researched.
